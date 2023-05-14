@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import { SketchPicker } from 'react-color';
 import './chat.css';
@@ -56,6 +57,7 @@ function ChatPage() {
   };
 
 
+
   useEffect(() => {
     const timer = setTimeout(() => {
       if (messageIndex < messages.length - 1) {
@@ -69,6 +71,7 @@ function ChatPage() {
   }, [messageIndex, messages]);
 
   return (
+
     <div style={chatStyle}>
       <div className="ChatContainer">
         <h1> Wysa Chat</h1>
