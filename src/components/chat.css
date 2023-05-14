@@ -1,0 +1,90 @@
+
+
+
+.ChatContainer {
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+   margin: 70px auto;
+   
+  
+   
+  }
+  .top-right-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+   
+
+  }
+  
+  .logout-button {
+    background-color:  rgb(110, 110, 190);
+    color: white;
+    padding: 10px 20px;
+    margin: 12px;
+    border: none;
+    font-size: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  
+  .theme-change-button {
+    background-color: rgb(110, 110, 190);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .message {
+    margin: 20px 0;
+    padding: 15px;
+    animation-delay: 600ms;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.08);
+     border-radius: 15px;
+     width: fit-content;
+     max-width: 256px;
+  }
+  
+  .message.bot {
+    background-color: #fff;
+  
+    /* background: linear-gradient(239.26deg, #DDEEED 63.17%, #FDF1E0 94.92%); */
+  }
+  
+  .message .text {
+    font-size: 16px;
+  }
+
+ 
+
+
+  .input-container {
+    display: flex;
+    flex-direction: row;
+    margin: 70px 0;
+    /* margin-bottom: 10px; */
+  }
+  
+  .fa-paper-plane{
+    margin-left: 2px;
+    line-height: 1.7em;
+  }
+  
+
+  
+  
+  
+  
+  
+  
+  
+
+  
